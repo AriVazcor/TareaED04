@@ -9,7 +9,9 @@ class Solution {
     public static String toCamelCase(String s) {
         StringBuilder resultado = new StringBuilder();
         boolean siguienteMayus = false;
-
+        /**
+         * Creamos un bucle
+         */
         for (int i = 0; i < s.length(); i++) {
             char charActual = s.charAt(i);
 
